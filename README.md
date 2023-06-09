@@ -1,1 +1,1 @@
-This is the repository for CIKM submission.
+This is the repository for 2023 CIKM submission of paper entitled "Simplifying Temporal Heterogeneous Network for Continuous-Time Link Prediction".

@@ -2,7 +2,6 @@ import os
 import pickle
 from tqdm import tqdm
 import numpy as np
-
 from construct_subgraph import get_parallel_sampler, get_mini_batch
 
 ######################################################################################################
@@ -86,7 +85,7 @@ def pre_compute_subgraphs(args, g, df, mode):
                                                                             extra_neg_samples, 
                                                                             args.batch_size, 
                                                                             args.sampled_num_hops, 
-                                                                            args.num_neighbors))
+                                                                          args.num_neighbors))
     ###################################################
 
     # try:

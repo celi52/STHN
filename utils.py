@@ -1,12 +1,9 @@
 import random
 import numpy as np
 import torch
-
 import os
 import pandas as pd
-
 from construct_subgraph import construct_mini_batch_giant_graph, get_parallel_sampler, get_mini_batch
-
 import torch_sparse
 from torch_geometric.nn.conv.gcn_conv import gcn_norm
 

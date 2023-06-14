@@ -18,6 +18,3 @@ setup(
     description = "Parallel Sampling for Temporal Graphs",
     ext_modules = ext_modules,
 )
-
-
-# python setup.py build_ext --inplace

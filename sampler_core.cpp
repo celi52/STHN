@@ -31,7 +31,6 @@ public:
     double coo_time = 0;
 
     TemporalGraphBlock() {}
-
     TemporalGraphBlock(std::vector<NodeIDType> &_row, std::vector<NodeIDType> &_col,
                        std::vector<EdgeIDType> &_eid, std::vector<TimeStampType> &_ts,
                        std::vector<TimeStampType> &_dts, std::vector<NodeIDType> &_nodes,

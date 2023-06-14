@@ -51,12 +51,10 @@ def tsort(i, indptr, indices, t, eid):
     t[beg:end] = t[beg:end][sidx]
     eid[beg:end] = eid[beg:end][sidx] 
 
-
 for i in tqdm(range(ext_full_indptr.shape[0] - 1)):
     tsort(i, ext_full_indptr, ext_full_indices, ext_full_ts, ext_full_eid)
 
 print('saving...')
-
 
 np.savez('DATA/{}/ext_full.npz'.format(args.data), indptr=ext_full_indptr,
         indices=ext_full_indices, ts=ext_full_ts, eid=ext_full_eid)

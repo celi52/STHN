@@ -13,7 +13,6 @@ from torchmetrics.classification import BinaryAUROC, BinaryAveragePrecision
 
 def run(model, optimizer, args, subgraphs, df, node_feats, edge_feats, MLAUROC, MLAUPRC, mode):
     time_epoch = 0
-    
     ###################################################
     # setup modes
     if mode == 'train':

@@ -2,7 +2,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-
 def get_emb(sin_inp):
     """
     Gets a base embedding for one dimension with sin and cos intertwined

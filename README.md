@@ -41,7 +41,7 @@ python setup.py build_ext --inplace
 ### 1. Data pre-process
 
 ```shell
-python gen_grapgh.py --data movie
+python gen_graph.py --data movie
 ```
 ### 2. Link prediction
 

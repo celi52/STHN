@@ -6,7 +6,7 @@ This repository provides an official **PyTorch** implementation of *STHN: Simpli
   <img width="800" src="framework.png">
 </p>
 
-#### Model architecture. (a) Heterogeneous Link Encoder with two components - type encoding and time encoding embeds historical interaction sequence to produce temporal link representation. (b) In semantic patches fusion, sequential representations are divided into different patches, which are set as the token input of Encoder. Average mean pooling is used to compress the patch embeddings into a single vector. (c) Combining the representations of nodes 𝑢 and 𝑣, the link predictor makes link prediction with FC layer and CrossEntropy loss.
+Model architecture. (a) Heterogeneous Link Encoder with two components - type encoding and time encoding embeds historical interaction sequence to produce temporal link representation. (b) In semantic patches fusion, sequential representations are divided into different patches, which are set as the token input of Encoder. Average mean pooling is used to compress the patch embeddings into a single vector. (c) Combining the representations of nodes 𝑢 and 𝑣, the link predictor makes link prediction with FC layer and CrossEntropy loss.
 
 ### Python environment setup with Conda
 

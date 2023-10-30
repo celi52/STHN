@@ -1,6 +1,6 @@
 # Simplifying Temporal Heterogeneous Network for Continuous-Time Link Prediction
 
-This repository provides an official **PyTorch** implementation of *STHN: Simplifying Temporal Heterogeneous Network for Continuous-Time Link Prediction (CIKM 2023).* [paper](https://dl.acm.org/doi/10.1145/3583780.3615059)
+This repository provides an official **PyTorch** implementation of *STHN: Simplifying Temporal Heterogeneous Network for Continuous-Time Link Prediction (CIKM 2023).* [[paper]](https://dl.acm.org/doi/10.1145/3583780.3615059)
 
 <p align="center">
   <img width="800" src="framework.png">
